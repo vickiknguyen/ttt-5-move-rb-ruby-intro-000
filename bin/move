@@ -5,4 +5,4 @@ puts "Where would you like to go?"
 
 user_input = gets.chop
 
-move(board, index, player)
+
