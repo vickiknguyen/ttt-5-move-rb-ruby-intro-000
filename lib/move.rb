@@ -23,7 +23,7 @@ def move(board, index, value)
   board[index] = value
 end
 
-move(board, user_input.to_i, "X")
+
 
 
 
