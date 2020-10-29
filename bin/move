@@ -4,5 +4,4 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
 user_input = gets.chop
-input_to_index(user_input)
 puts input_to_index(user_input)
