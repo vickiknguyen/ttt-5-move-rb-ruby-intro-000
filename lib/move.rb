@@ -21,8 +21,8 @@ end
 board = display_board(board)
 index = input_to_index(user_input)
 player = "X"
-def move(board, index, player)
-  board[index] = player
+def move(board, input_to_index, player)
+  board[input_to_index] = player
 end
 
 move(board, index, player)
