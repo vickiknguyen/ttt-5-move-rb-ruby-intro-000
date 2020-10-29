@@ -24,5 +24,6 @@ def move(board, index, player)
    board[index] = player
 end
 
+move(board, index, player)
 
 # code your input_to_index and move method here!
