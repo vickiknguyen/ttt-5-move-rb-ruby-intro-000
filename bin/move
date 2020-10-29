@@ -5,6 +5,4 @@ puts "Where would you like to go?"
 
 user_input = gets.chop
 
-update_array_at_with(board, 0, "X")
-
-move(board, 2, "X")
+update_array_at_with(board, "#{user_input}".to_i - 1, "X")
