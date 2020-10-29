@@ -4,6 +4,5 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
 user_input = gets.chop
-input_to_index(user_input)
-puts user_input.to_i
-sum = user_input - "1"
+input_to_index(user_input.to_i)
+
