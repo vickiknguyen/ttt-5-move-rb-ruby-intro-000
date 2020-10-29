@@ -7,7 +7,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-user_input = "user_input"
+user_input = "user_input" - 1
 
 def input_to_index(user_input)
   puts "#{user_input}"
