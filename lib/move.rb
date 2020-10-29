@@ -20,7 +20,7 @@ def update_array_at_with(array, index, value)
   array[index] = value
 end
 
-update_array_at_with(board, 0, "X")
+update_array_at_with(board, "#{user_input}".to_i - 1, "X")
 
 
 # code your input_to_index and move method here!
