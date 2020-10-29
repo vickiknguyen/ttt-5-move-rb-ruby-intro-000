@@ -4,3 +4,5 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
 user_input = gets.chop
+
+update_array_at_with(board, 0, "X")
