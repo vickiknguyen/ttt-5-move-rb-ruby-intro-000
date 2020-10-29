@@ -13,8 +13,8 @@ def input_to_index(user_input)
   "#{user_input}".to_i - 1
 end
 
-def move(be_truthy)
-  be_truthy = "truthy value"
+def move(board, index, player)
+  board[index] = player
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
