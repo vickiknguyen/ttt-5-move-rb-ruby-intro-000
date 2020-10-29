@@ -9,7 +9,7 @@ end
 
 user_input = "user_input".to_i
 def input_to_index(user_input)
-  puts "'#{user_input}'"
+  puts "'#{user_input}'".to_i
 end
 
 
