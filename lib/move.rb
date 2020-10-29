@@ -20,7 +20,7 @@ end
 
 board = [" ", " ", " "]
 def move(board, index, value)
-  array[index] = value
+  board[index] = value
 end
 
 move(board, user_input.to_i, "X")
