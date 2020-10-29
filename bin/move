@@ -4,4 +4,4 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
 user_input = gets.chop
-move(board, user_input, player)
+move(board, index, player)
