@@ -15,11 +15,11 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-  'user_input.to_i - 1'
+  user_input.to_i - 1
 end
 
 board = [" ", " ", " "]
-index = [input_to_index]
+index = input_to_index(user_input)
 player = "X"
 def move(board, index, player)
   board[index] = player
